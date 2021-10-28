@@ -10,8 +10,6 @@ int result; // Результат работы программы
 double sum = 0;
 double* mas;
 int* fraction;
-srand(time(NULL));
-setlocale(0, "rus");
 
 printf("Укажите, сколько чисел должно быть в сгенерированном списке:\n");
 scanf("%ld", &a);
